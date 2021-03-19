@@ -6,8 +6,8 @@ import { SidebarData } from "./SidebarData";
 import "./style.css";
 import { IconContext } from "react-icons";
 
-export default function Navbar() {
-  const [sidebar, setSidebar] = useState(false); // current value not shows
+export default function Navbar({ sidebar, setSidebar }) {
+  // current value not shows
   const showSidebar = () => setSidebar(!sidebar);
   return (
     <>
