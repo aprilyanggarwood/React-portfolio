@@ -23,15 +23,20 @@ const Navbar = () => {
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks>
+                <NavBtnLink to="/">About</NavBtnLink>
+              </NavLinks>
             </NavItem>
+
             <NavItem>
               <NavLinks>
                 <NavBtnLink to="/portfolio">Portfolio</NavBtnLink>
               </NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="contact">Contact</NavLinks>
+              <NavLinks>
+                <NavBtnLink to="/contact">Contact</NavBtnLink>
+              </NavLinks>
             </NavItem>
             <NavItem>
               <NavLinks to="">Git</NavLinks>

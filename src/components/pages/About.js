@@ -9,12 +9,12 @@ function About() {
   return (
     <main>
       <div class="background">
-        <Container>
+        <Container fluid>
           <Row class="row">
             <Col md={9}>
               <div
                 className="aboutmebackground p-4"
-                style={{ background: "yellow" }}
+                style={{ background: "yellow", marginLeft: "50px" }}
               >
                 <h1>
                   About Me
